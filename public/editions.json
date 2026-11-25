@@ -3,14 +3,32 @@
     "date": "2026-11-25",
     "stories": [
       {
-        "category": "Security",
-        "title": "Rackspace to discontinue Spot cloud service",
-        "summary": "Reporting says customers must migrate following an attack on identity-related APIs.",
+        "category": "Hardware",
         "status": "Reported",
+        "title": "AI chip development raises new questions about Nvidia's dominance",
+        "summary": "AI developers are increasingly exploring custom processors.",
+        "body": "AI developers are using their own technology to improve semiconductor designs, according to Business Insider. OpenAI, Google and Anthropic are exploring ways to optimize hardware for artificial intelligence workloads, potentially changing the relationship between model developers and chip suppliers.\n\nThe economic motivation is straightforward: a processor designed for a narrower workload may use silicon and electricity more efficiently than a general-purpose alternative. At large data-center scale, even modest efficiency improvements can have meaningful consequences for operating costs. But designing a chip is only one part of the challenge. Manufacturing, software compatibility, networking and reliable deployment remain significant barriers.\n\nNvidia's established software ecosystem and infrastructure experience give it advantages that competing chip designers cannot immediately reproduce. The emerging competition nevertheless gives cloud operators another reason to evaluate specialized accelerators alongside conventional GPUs. The key question is whether these alternatives can demonstrate sustained savings on production workloads rather than isolated engineering benchmarks.",
         "sources": [
           {
-            "label": "Source",
-            "url": "https://www.wsj.com/pro/cybersecurity/u-s-intelligence-system-hacked-08e20037"
+            "label": "Business Insider",
+            "url": "https://www.businessinsider.com/openai-google-anthropic-use-ai-challenge-nvidia-chip-dominance-2026-11"
+          }
+        ]
+      },
+      {
+        "category": "Executives",
+        "status": "Reported",
+        "title": "Technology shares retreat as AI investment concerns return",
+        "summary": "Investors remain concerned about the cost and returns of AI infrastructure.",
+        "body": "Technology stocks came under renewed pressure as investors reconsidered the economics of artificial intelligence expansion, according to Associated Press and Business Insider reporting. The downturn followed a short-lived recovery associated with Jensen Huang's return to Nvidia's leadership.\n\nThe broader issue extends beyond a single executive or company. AI infrastructure requires substantial upfront investment in accelerators, networking equipment, electricity and facilities. Companies must eventually earn sufficient revenue from these systems to justify their capital expenditure. Changes in borrowing costs or demand expectations can therefore affect valuations even when the underlying technology continues improving.\n\nFor the technology industry, the selloff illustrates the distinction between technical progress and commercial returns. Falling share prices do not by themselves establish that AI adoption is slowing. More useful indicators include actual infrastructure utilization, customer revenue, operating margins and the ability of companies to fund their expansion. Regulatory uncertainty and international trade policy remain additional variables for hardware suppliers.",
+        "sources": [
+          {
+            "label": "Associated Press",
+            "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1"
+          },
+          {
+            "label": "Business Insider",
+            "url": "https://www.businessinsider.com/nvidia-stock-softbank-kospi-index-nikkei-tsmc-ai-trade-selloff-2026-11"
           }
         ]
       }
@@ -23,7 +41,7 @@
         "category": "Development",
         "title": "Anthropic introduces Claude Ship",
         "summary": "Reported tools cover pull request review, maintenance and policy-based approvals.",
-        "status": "Reported",
+        "status": "Pending source verification",
         "sources": [
           {
             "label": "Source",
@@ -35,7 +53,7 @@
         "category": "Security",
         "title": "OpenAI and Cisco introduce Shirudo",
         "summary": "The open-source project aims to protect Linux workloads during patch rollout.",
-        "status": "Reported",
+        "status": "Pending source verification",
         "sources": [
           {
             "label": "Source",
@@ -52,7 +70,7 @@
         "category": "Executives",
         "title": "NVIDIA reinstates Jensen Huang",
         "summary": "The company announced its board had voted to restore Huang as CEO and director.",
-        "status": "Reported",
+        "status": "Pending source verification",
         "sources": [
           {
             "label": "Source",
@@ -69,7 +87,7 @@
         "category": "AI",
         "title": "Anthropic begins public trading",
         "summary": "InformationWeek reports a major public offering for the AI company.",
-        "status": "Reported",
+        "status": "Pending source verification",
         "sources": [
           {
             "label": "Source",
@@ -86,7 +104,7 @@
         "category": "Development",
         "title": "Microsoft unveils coding and security models",
         "summary": "Reporting from Ignite describes new in-house models for enterprise workflows.",
-        "status": "Reported",
+        "status": "Pending source verification",
         "sources": [
           {
             "label": "Source",
@@ -103,7 +121,7 @@
         "category": "Hardware",
         "title": "US expands advanced chip export restrictions",
         "summary": "New rules reportedly extend licensing requirements to certain overseas data center arrangements.",
-        "status": "Reported",
+        "status": "Pending source verification",
         "sources": [
           {
             "label": "Source",
