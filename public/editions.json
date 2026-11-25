@@ -1,35 +1,113 @@
 [
   {
     "date": "2026-11-25",
-    "note": "Launch edition: live headlines have not yet been independently verified. Source directory below; daily reporting will appear here after publication.",
     "stories": [
       {
-        "category": "Hardware",
-        "title": "Semiconductor industry watch",
-        "summary": "Official announcements and GPU roadmaps.",
+        "category": "Security",
+        "title": "Rackspace to discontinue Spot cloud service",
+        "summary": "Reporting says customers must migrate following an attack on identity-related APIs.",
+        "status": "Reported",
         "sources": [
           {
-            "label": "NVIDIA",
-            "url": "https://nvidianews.nvidia.com/"
-          },
+            "label": "Source",
+            "url": "https://www.wsj.com/pro/cybersecurity/u-s-intelligence-system-hacked-08e20037"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "stories": [
+      {
+        "category": "Development",
+        "title": "Anthropic introduces Claude Ship",
+        "summary": "Reported tools cover pull request review, maintenance and policy-based approvals.",
+        "status": "Reported",
+        "sources": [
           {
-            "label": "AMD",
-            "url": "https://www.amd.com/en/newsroom.html"
+            "label": "Source",
+            "url": "https://sift.yasint.dev/2026-11-24.html"
           }
         ]
       },
       {
-        "category": "AI",
-        "title": "AI model and agent watch",
-        "summary": "Official model and developer announcements.",
+        "category": "Security",
+        "title": "OpenAI and Cisco introduce Shirudo",
+        "summary": "The open-source project aims to protect Linux workloads during patch rollout.",
+        "status": "Reported",
         "sources": [
           {
-            "label": "OpenAI",
-            "url": "https://openai.com/news/"
-          },
+            "label": "Source",
+            "url": "https://www.digitimes.com/tag/software/001637.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "stories": [
+      {
+        "category": "Executives",
+        "title": "NVIDIA reinstates Jensen Huang",
+        "summary": "The company announced its board had voted to restore Huang as CEO and director.",
+        "status": "Reported",
+        "sources": [
           {
-            "label": "Anthropic",
-            "url": "https://www.anthropic.com/news"
+            "label": "Source",
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/d56080ad-0d8b-401a-b284-e3308341659a.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "stories": [
+      {
+        "category": "AI",
+        "title": "Anthropic begins public trading",
+        "summary": "InformationWeek reports a major public offering for the AI company.",
+        "status": "Reported",
+        "sources": [
+          {
+            "label": "Source",
+            "url": "https://www.informationweek.com/machine-learning-ai/the-week-of-nov-16-20-what-happened-what-matters-what-s-next"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "stories": [
+      {
+        "category": "Development",
+        "title": "Microsoft unveils coding and security models",
+        "summary": "Reporting from Ignite describes new in-house models for enterprise workflows.",
+        "status": "Reported",
+        "sources": [
+          {
+            "label": "Source",
+            "url": "https://www.digitimes.com/tag/software/001637.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "stories": [
+      {
+        "category": "Hardware",
+        "title": "US expands advanced chip export restrictions",
+        "summary": "New rules reportedly extend licensing requirements to certain overseas data center arrangements.",
+        "status": "Reported",
+        "sources": [
+          {
+            "label": "Source",
+            "url": "https://www.informationweek.com/machine-learning-ai/the-week-of-nov-16-20-what-happened-what-matters-what-s-next"
           }
         ]
       }
