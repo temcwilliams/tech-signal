@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-27",
+    "stories": [
+      {
+        "category": "Hardware",
+        "status": "Reported by multiple outlets",
+        "title": "Nvidia pauses AI server shipments to four Southeast Asian markets",
+        "summary": "Reuters and the Wall Street Journal report a shipment pause amid export compliance reviews.",
+        "body": "Nvidia has reportedly asked manufacturing partners to suspend deliveries of AI servers to Malaysia, Singapore, Thailand and Indonesia, following tighter US semiconductor export rules. Reuters and the Wall Street Journal describe a review of regional compliance arrangements. The duration remains uncertain.\n\nThe development is important for infrastructure operators because server purchases are often coordinated with construction, power contracts and financing. A delivery delay can disrupt those schedules even when demand for computing remains strong. The reports concern regional server shipments, not a universal suspension of consumer graphics card sales.\n\nOperators should distinguish confirmed delivery commitments from projected capacity and seek updated timelines from suppliers.",
+        "why": "Regional AI infrastructure schedules may be affected.",
+        "sources": [
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/nvidia-halts-chip-shipments-southeast-asia-ft-reports-2026-11-26/"
+          },
+          {
+            "label": "Wall Street Journal",
+            "url": "https://www.wsj.com/tech/nvidia-tells-partners-to-pause-shipments-to-southeast-asia-5b791cb0"
+          }
+        ]
+      },
+      {
+        "category": "Infrastructure",
+        "status": "Reported; negotiations not finalized",
+        "title": "Japan's JERA explores AI data center partnerships",
+        "summary": "JERA is reportedly discussing potential infrastructure projects with major US technology firms.",
+        "body": "Reuters, citing Nikkei, reports that Japanese energy company JERA is discussing possible data center projects with Anthropic, Meta and other major technology companies. The prospective customers did not immediately confirm the talks to Reuters.\n\nThe discussions build on an October agreement with Dell and RHAELM involving a planned $15 billion facility in Chiba. Earlier Reuters reporting described a project with about 400 MW of power capacity, targeting phased operation from 2028.\n\nThe approach illustrates how access to electricity can shape the location of AI infrastructure. Locating compute near generation may simplify some power procurement challenges, but financing, construction, cooling and customer agreements remain important. Discussions should not be interpreted as signed customer contracts.",
+        "why": "Power availability is becoming central to AI infrastructure planning.",
+        "sources": [
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/japans-jera-enters-talks-with-anthropic-meta-build-data-centres-nikkei-reports-2026-11-26/"
+          },
+          {
+            "label": "Reuters project background",
+            "url": "https://www.reuters.com/business/energy/jera-teams-up-with-dell-rhaelm-ai-infrastructure-development-japan-2026-10-01/"
+          }
+        ]
+      },
+      {
+        "category": "AI",
+        "status": "Reported; independent confirmation limited",
+        "title": "AI labs increasingly focus on enterprise implementation",
+        "summary": "Barron's reports that OpenAI and Anthropic are embedding specialist engineers with customers.",
+        "body": "Barron's reports that OpenAI and Anthropic are expanding customer-facing engineering teams to help businesses integrate AI into their operations. Full article access was limited, so detailed staffing and financial figures are omitted.\n\nThe strategy highlights a distinction between model capability and business adoption. A capable model alone does not establish a reliable workflow: organizations also need integration with existing systems, appropriate permissions, evaluation and support.\n\nFor teams adopting AI, a useful starting point is a narrowly defined workflow with measurable outcomes and human oversight. The success of enterprise implementation should be assessed through reliability and actual operational improvements, not simply model usage.",
+        "why": "Deployment expertise may be as important as model capability.",
+        "sources": [
+          {
+            "label": "Barron's",
+            "url": "https://www.barrons.com/articles/anthropic-claude-openai-chatgpt-ai-hiring-aa91b640"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-25",
     "stories": [
       {
