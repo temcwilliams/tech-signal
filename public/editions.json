@@ -1,5 +1,65 @@
 [
   {
+    "date": "2026-11-28",
+    "note": "Primary release and independent reporting reviewed; disputed allegations and timing exceptions labeled. Historical entries retained, not reverified.",
+    "stories": [
+      {
+        "category": "AI",
+        "status": "Reported; disputed allegations",
+        "title": "OpenAI files counterclaims against Apple in hardware dispute",
+        "summary": "Reuters and the Financial Times report new counterclaims filed November 27 in California federal court.",
+        "why": "Competition in AI is extending into consumer devices, engineering talent and manufacturing relationships.",
+        "body": "OpenAI filed counterclaims against Apple on Friday, according to Reuters and the Financial Times. The AI company alleges that Apple obtained confidential hardware information and interfered with supplier relationships. Apple denies the allegations. The counterclaims follow Apple's July lawsuit alleging misuse of its own confidential technology, which OpenAI disputes.\n\nThe litigation comes as OpenAI develops consumer hardware following its acquisition of io in 2025. Unlike a cloud-only AI service, a physical product requires industrial design, component procurement, manufacturing and distribution. Access to engineering expertise and suppliers can therefore be commercially important even before a device reaches customers.\n\nThe new filing is a legal development, not a finding of wrongdoing. The underlying court document was not independently retrieved for this edition, and no product specifications or launch dates are established by the reporting reviewed.",
+        "sources": [
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/"
+          },
+          {
+            "label": "Financial Times",
+            "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4"
+          }
+        ]
+      },
+      {
+        "category": "Security",
+        "status": "Company-confirmed incident; scope uncertain",
+        "title": "SAP investigates suspicious activity in development infrastructure",
+        "summary": "SAP acknowledged a security incident in statements reported Friday by The Record and SecurityWeek.",
+        "why": "Software development infrastructure is a critical supply-chain trust boundary.",
+        "body": "SAP has acknowledged suspicious activity and says it has taken protective measures, according to a statement provided to The Record on November 27. The company says its investigation has not identified unauthorized access to customer business data. That assessment is provisional.\n\nGerman press reporting describes compromised employee authentication credentials and possible interference with source code hosted on GitHub. Separate reporting describes restrictions on development operations and replacement of signing keys. SAP has not publicly confirmed those specific details, and there is no established evidence in the reviewed reports that modified software reached customers.\n\nThe incident illustrates why software producers need to protect both repository access and release pipelines. Organizations can reduce exposure by limiting credential permissions, reviewing access logs and maintaining independently verifiable build and release records. Customers should follow official vendor notices rather than assume their installations have been compromised.",
+        "sources": [
+          {
+            "label": "The Record",
+            "url": "https://therecord.media/sap-germany-cyberattack-github"
+          },
+          {
+            "label": "SecurityWeek",
+            "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/"
+          }
+        ]
+      },
+      {
+        "category": "Development",
+        "status": "Confirmed release; November 27 morning",
+        "title": "MCP reference servers receive coordinated security update",
+        "summary": "Version 2.6.0 addresses security issues in reference implementations used by AI agents.",
+        "why": "Agent integrations can expose repositories, files and persistent data to automated tools.",
+        "body": "The Model Context Protocol reference-server project published version 2.6.0 on November 27. Its signed GitHub release describes eight vulnerability fixes and completion of two earlier fixes. The changes apply to specific reference implementations, not every application that supports MCP.\n\nThe update strengthens isolation of Git repositories, handling of credentials and filesystem boundaries. These protections matter because an AI assistant can invoke tools that operate with the permissions of a local service. Even operations intended to retrieve information require careful isolation.\n\nThe maintainers recommend updating the Git and Fetch packages to 2026.11.27, Memory to 2.2.2 and the Windows Filesystem package to 2.4.1. Operators should inventory installed packages, test updates and restrict tool permissions to the minimum necessary. The release does not establish that any particular installation was compromised.\n\nThe release was published on the morning of November 27, near the edge of this edition's reporting window; it is included as a relevant security carryover.",
+        "sources": [
+          {
+            "label": "Official GitHub release",
+            "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.6.0"
+          },
+          {
+            "label": "AI Agent News",
+            "url": "https://aiagentnews.io/stories/mcp-servers-v2-6-0-fixes-eight-vulnerabilities-in-git-memory-and-fetch-servers"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-27",
     "stories": [
       {
